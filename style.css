@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+
+#header{
+    border-bottom: 1px solid #ccc;
+}
+#header .header_inner{}
+#header .header_inner ul{
+    width: 650px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+#header .header_inner ul li{
+    display: inline-block;
+    width: 16%;
+}
+#header .header_inner ul li a{
+    text-align: center;
+    margin:  0 auto;
+    display: block;
+}
+#header .header_inner ul li a img{}
+
+
+#container{}
+#container > div.content{}
+#container > div.content > div{width:1000px;margin: 60px auto 0;}
+#container > div div.main_visual{}
+#container > div div.main_visual ul{}
+#container > div div.main_visual ul li{}
+#container > div div.main_visual ul li a{}
+#container > div div.main_visual ul li a img{}
+
+
+#container > div div.bottom_content{
+    margin-bottom:  30px;
+}
+#container > div div.bottom_content:after{content:'';clear:both;display:block;}
+#container > div div.bottom_content> div{display: block;float: left;}
+#container > div div.bottom_content div.section_npc{
+    width: 650px;
+}
+#container > div div.bottom_content div.section_npc ul{
+    width: 100%;
+}
+#container > div div.bottom_content div.section_npc ul li{
+    display: block;
+    border: 1px solid #ccc;
+    height: 245px;
+    margin-right: 12px;
+    overflow: hidden;
+    width: 311px;
+    margin-bottom: 15px;
+    float: left;
+}
+#container > div div.bottom_content div.section_npc ul li a{    display: block;}
+#container > div div.bottom_content div.section_npc ul li a:hover img{	-webkit-transform: scale(1.3);	transform: scale(1.3);}
+#container > div div.bottom_content div.section_npc ul li a img{
+	
+		-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    max-width: 100%;
+}
+#container > div div.bottom_content div.twitter{
+    border: 1px solid #ccc;
+    height: 506px;
+    width: 348px;
+}
+
+
+/*subpage*/
+
+div.npc{}
+div.npc:after{content:'';clear:both;display:block;}
+div.npc ul{}
+div.npc ul li{
+    display: block;
+    float: left;
+    margin-right:  20px;
+    margin-bottom:  20px;
+}
+div.npc ul li a{}
+div.npc ul li a img{}
+/*subpage*/
+#footer{}
+#footer div.footer_inner{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0px 0 20px;
+}
+#footer div.footer_inner ul{}
+#footer div.footer_inner ul li{
+    text-align: center;
+}
